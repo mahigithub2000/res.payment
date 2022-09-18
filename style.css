@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.img-custom{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(d.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:#fff;
+}
+.rzp-custom{
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(donate.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:#fff;
+}
+.form-custom{
+    
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(contact.png);
+    background-position: center;
+    content: '';
+    width: 100vw;
+    height: 120vh;
+    background-size: cover;
+}
+label{
+    color:#fff;
+}
+.form-group{
+    margin-top:5px;
+}
+.custom-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-nav {
+    margin-left: auto;
+}
